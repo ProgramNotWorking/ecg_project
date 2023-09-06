@@ -4,7 +4,7 @@ from PIL import Image
 import json
 
 
-# change this when we get ecg system i guess
+# change this when we get ecg system I guess
 ser = serial.Serial('COM1', baudrate=9600)
 ecg_data = ser.read(1000)
 
